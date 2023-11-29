@@ -15,3 +15,4 @@ Depois ele vai começar a apagar os ponteiros e escrever os novos valores;
 ![image](https://github.com/dgzim/agoravaidiogo/assets/105304753/67bda187-3251-4153-8e38-8ec3471c2574)
 
 Assim que ele terminar é só apertar o outro botão para iniciar o código;
+
