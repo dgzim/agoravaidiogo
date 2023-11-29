@@ -68,7 +68,7 @@ void setup()
   while (WiFi.status() != WL_CONNECTED)
   { // Aguarda a conexão
     delay(500);
-    Serial.println("."); // Enquanto não conectar escreve .....
+    Serial.println("."); // Enquanto não conectar escreve "....."
   }
   Serial.println("");
   Serial.print("Conectado no IP: ");
