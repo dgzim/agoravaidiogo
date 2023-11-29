@@ -99,7 +99,7 @@ void Whatsappmessage(String message)
 {
   // Dados a serem enviados usando o método post no Protocolo HTTP
   String url = "https://api.callmebot.com/whatsapp.php?phone=numerodetelefone&text="+UrlEncoder(message)+"&apikey=chave";
-  Serial.println(url);
+  Serial.println(url);                                     //colocar seu numero aqui//                          //colocar a chave aqui//
 
   HTTPClient http;
   http.begin(url);  // iniciando protocolo http
@@ -113,7 +113,7 @@ void Whatsappmessage(String message)
   {
     Serial.println("Deu ruim");
     Serial.print("Código HTTP");
-    Serial.println(httpResponseCode);   //Callback do código para verificar o que aconteceu, se der errado verificar a linha de código 100;
+    Serial.println(httpResponseCode);   //Callback do código para verificar o que aconteceu, se der errado verificar a linha de código 101;
   }
   http.end();// encerrando o protocolo pra começar outro depois
 }
